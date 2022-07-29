@@ -1,4 +1,4 @@
-const sayHelloWorldId = require('./sayHelloWorld');
+const sayHelloWorldId = require('./document');
 
 describe('Say Hello tests', () => {
     it('Should say Hello World', () => {
