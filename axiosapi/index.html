@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumindo API Pandora (Panagora)</title>
+
+    <link type="text/css" href="style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+
+</head>
+<body>   
+    <div id="renderResults"></div>
+
+    <main class="content">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center py-4">
+            <div class="d-block mb-4 mb-md-0">
+                <h1 class="h4">Panagora</h1>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-body border-0 shadow mb-4">
+                    <h2 class="h5 mb-4">Cadastrar Template</h2>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label htmlFor="nome">Nome </label>
+                                <input class="form-control" id="nome" type="text" placeholder="Digitar nome" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label htmlFor="documento">Documento</label>
+                                <input class="form-control" id="documento" type="text" placeholder="Digitar texto"  />
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-body border-0 shadow mb-4">
+                    <h2 class="h5 mb-4">Evento</h2>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label htmlFor="evento">Evento </label>
+                                <input class="form-control" id="evento" type="text" placeholder=""  />
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label htmlFor="votante">Votante</label>
+                                <input class="form-control" id="votante" type="text" placeholder="" />
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-body border-0 shadow mb-4">
+                    <h2 class="h5 mb-4">Documento Gerado</h2>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                                <label htmlFor="evento">Conteúdo </label>
+                                <textarea class="form-control" id="evento" type="text" placeholder=""></textarea>  
+                            </div>
+                        </div>                     
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </main>
+
+
+
+</body>
+</html>
