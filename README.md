@@ -1,25 +1,43 @@
 # Avaliação hard-skills
 
-Projeto gerador de documentos via api Panagora
-
-<h4 align="center"> 
-    :construction:  Projeto em construção  :construction:
-</h4>
-
-## :hammer: Funcionalidades do projeto
+<p align="center">
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projects</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Lincense</a>
+</p>
 
 
-- `Funcionalidade 1`: Cadastrar documentos padrão;
-- `Funcionalidade 2`: Consultar documentos padrões cadastrados;
-- `Funcionalidade 3`: Listar documentos por IDs do votante na api-assembleia;
-- `Funcionalidade 4`: Retornar o link para download desse documentos
 
-## 📁 Como utilizar?
 
-**1. Baixe esse repositório e com o seu terminal, acesse o diretório raiz**
-**2. Rode o comando npm install para instalar as depedências**
-**3.  **
+## 🚀 Tecnologias
 
-## 🛠️ Abrir e rodar o projeto
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-**Apresente as instruções necessárias para abrir e executar o projeto**
+- JavaScript
+- NodeJS
+- Express
+
+
+
+## 💻 Projeto
+
+Esse projeto foi construído para servir de apoio consumindo os dados da API de votantes do
+Panagora.
+
+## Como utilizar?
+
+1. Baixe esse repositório e com o seu o terminal, acesse a raiz do projeto;
+
+2. Rode o comando `npm install` para instalar as dependências;
+
+3. E pra iniciar a aplicação, rode o comando `npm start` 
+
+
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+
+---
+
+Feito com ♥ by Hilton L. Bacelar
