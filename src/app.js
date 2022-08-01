@@ -5,7 +5,7 @@ app.use(express.json());
 
 app.get('/', (req, res, next) => {
   const {sayHello} = require('./services/document');
-  res.send(sayHello(''));
+  res.send(sayHello('Hilton Bacelar'));
 });
 
 app.get('/cadastro', (req, res, next) => {

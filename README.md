@@ -5,10 +5,6 @@
   <a href="#-projeto">Projects</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Lincense</a>
 </p>
-
-
-
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -16,8 +12,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - NodeJS
 - Express
-
-
+- Axios
+- ORM Sequelize (MariaDB)
 
 ## 💻 Projeto
 
@@ -31,7 +27,6 @@ Panagora.
 2. Rode o comando `npm install` para instalar as dependências;
 
 3. E pra iniciar a aplicação, rode o comando `npm start` 
-
 
 
 ## :memo: Licença

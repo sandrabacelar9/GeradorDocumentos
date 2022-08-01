@@ -1,4 +1,4 @@
-const url = process.env.URL_API;
+const url = "http://localhost:3000/cadastro";
 
 function getDocument () {
     axios.get(url)
