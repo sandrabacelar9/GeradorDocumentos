@@ -28,6 +28,13 @@ Panagora.
 
 3. E pra iniciar a aplicação, rode o comando `npm run dev ` 
 
+## Via Docker
+
+1. Via terminal execute os seguintes comandos;
+
+2. Rode o comando `sudo chmod 666 /var/run/docker.sock` para permissões;
+
+3. E pra iniciar a aplicação, rode o comando `docker compose -f "docker-compose.yml" up -d --build  `
 
 ## :memo: Licença
 
